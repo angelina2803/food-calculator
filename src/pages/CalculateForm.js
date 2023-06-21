@@ -16,7 +16,7 @@ const CalculateForm = () => {
       <p>Banan</p>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
-      <img src="src/img/ovoce/photo3.jpg" alt="Banan" />
+      <img src="./img/ovoce/photo3.jpg" alt="Banan" />
       <p>Banan</p>
       </Card>
       <Card sx={{ maxWidth: 345 }}>
