@@ -1,13 +1,18 @@
-.CalculateBody {
-  background: rgb(244, 242, 240);
-  background: linear-gradient(
-    354deg,
-    rgba(244, 242, 240, 1) 35%,
-    rgba(250, 233, 223, 1) 100%
-  );
+.conteinerCard{
+  height: 100%;
+  margin-top: 30px;
+}
+.conteinerCard h1{
+  justify-content: flex-start; 
+  margin-left: 50px;
 }
 .cardGrid {
+  width: 500px;
+  height: 600px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 20px; 
+  justify-content: flex-start; 
+  margin-left: 50px;
+  margin-top: 20px;
 }
