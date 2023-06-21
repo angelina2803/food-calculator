@@ -1,0 +1,13 @@
+.CalculateBody {
+  background: rgb(244, 242, 240);
+  background: linear-gradient(
+    354deg,
+    rgba(244, 242, 240, 1) 35%,
+    rgba(250, 233, 223, 1) 100%
+  );
+}
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}

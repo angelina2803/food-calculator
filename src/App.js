@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<FirstPage/>} />
-          <Route path="/calculateForm-page" component={CalculateForm} />
+          <Route path="/calculateForm-page" element={<CalculateForm/>} />
         </Routes>
       </Router>
 

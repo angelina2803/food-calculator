@@ -3,6 +3,7 @@ import Modal from "@mui/material/Modal";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import '../styles/FirstPage.css'
+import "../styles/App.css";
 import { Link } from 'react-router-dom';
 
 function FirstPage() {
