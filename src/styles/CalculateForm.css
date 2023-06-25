@@ -7,14 +7,27 @@
   margin-left: 50px;
 }
 .cardGrid {
-  width: 100%;
+  width: 50%;
   height: 85%;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 20px; 
   text-align: center;
-  margin-left: 50px;
   margin-top: 20px;
+
+}
+.conteinerBox{
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 99vw;
+  display: flex;
+  align-items: flex-start;
+}
+.calculationForm {
+  width: 50%;
+
+  margin-top: 22px;
+  margin-left: 20px;
 }
 .button{
   margin-top: 10px;
@@ -32,6 +45,7 @@
 }
 .buttonAdd{
   margin-top: 10px;
+  margin-bottom: 20px;
   padding: 5px 10px;
   color: rgb(200, 60, 17);
   font-size: 11px;

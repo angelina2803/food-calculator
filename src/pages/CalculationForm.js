@@ -7,15 +7,18 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import myImage from "../img/ovoce.png";
 
 
 const CalculationForm = ({data}) => {
 
 
     return (
+        <div> <img src={myImage} alt="ovoce" className='ovoceImage'/>
+        <h3 className='ovoceText'>Calculate your calories</h3>
         <div className='table'>
         <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
+      <Table sx={{ minWidth: 650}} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
             <TableCell>№</TableCell>
@@ -41,6 +44,7 @@ const CalculationForm = ({data}) => {
         </TableBody>
       </Table>
     </TableContainer>
+    </div>
     </div>
   );
 };

@@ -17,7 +17,7 @@ const CardItem = ({ imageSrc, altText, text, calories }) => {
         alt={altText}
         style={{
           width: "100%",
-          height: "90px",
+          height: "80px",
           objectFit: "cover",
           objectPosition: "center",
         }}
