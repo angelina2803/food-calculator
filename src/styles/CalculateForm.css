@@ -7,12 +7,36 @@
   margin-left: 50px;
 }
 .cardGrid {
-  width: 500px;
-  height: 600px;
+  width: 100%;
+  height: 85%;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 20px; 
-  justify-content: flex-start; 
+  text-align: center;
   margin-left: 50px;
   margin-top: 20px;
+}
+.button{
+  margin-top: 10px;
+  padding: 5px 10px;
+  color:rgb(0, 0, 0);
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid rgb(245, 170, 22);
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+.buttonText{
+  text-align: center;
+}
+.buttonAdd{
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: rgb(200, 60, 17);
+  font-size: 11px;
+  background: transparent;
+  border: 1px solid rgb(200, 60, 17);
+  cursor: pointer;
+  text-align: center;
 }
