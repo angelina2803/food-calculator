@@ -20,8 +20,8 @@ const CardList = () => {
           <Card key={index} sx={{ maxWidth: 345 }}>
             <img src={card.imageSrc} alt={card.altText} />
             <p>{card.text}</p>
-            <button onClick={incrementCounter}>+</button>
-            <p>{counter}</p>
+              <button onClick={incrementCounter}>+</button>
+              <p>{counter}</p>
             <button>Přidat do seznamu</button>
             
           </Card>
