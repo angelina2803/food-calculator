@@ -5,7 +5,6 @@ import Card from "@mui/material/Card";
 import { GlobalContext } from "../context/GlobalContext";
 
 const CardItem = ({ imageSrc, altText, text, calories }) => {
-    
   const { counter, setCounter } = useContext(GlobalContext);
 
   const incrementCounter = () => {
@@ -28,7 +27,7 @@ const CardItem = ({ imageSrc, altText, text, calories }) => {
         <button className="button" onClick={incrementCounter}>
           +
         </button>
-        <p style={{ display: "inline", marginLeft: "10px" }}>{counter}</p>
+        <p style={{ display: "inline", marginLeft: "10px" }}>{counter}/ks</p>
       </div>
       <button className="buttonAdd">Přidat do seznamu</button>
     </Card>
