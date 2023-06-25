@@ -2,7 +2,8 @@ import * as React from "react";
 import "./styles/App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FirstPage from "./pages/FirstPage";
-import CalculateForm from "./pages/CalculateForm";
+import CardList from "./pages/CardList";
+import { GlobalContext } from "./context/GlobalContext";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<FirstPage/>} />
-          <Route path="/calculateForm-page" element={<CalculateForm/>} />
+          <Route path="/calculateForm-page" element={<CardList/>} />
         </Routes>
       </Router>
 
