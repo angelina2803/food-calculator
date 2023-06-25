@@ -18,7 +18,7 @@ const CalculationForm = ({data}) => {
         <h3 className='ovoceText'>Calculate your calories</h3>
         <div className='table'>
         <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650}} size="small" aria-label="a dense table">
+      <Table sx={{ minWidth: 650, height:'250px'}} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
             <TableCell>№</TableCell>
@@ -31,7 +31,7 @@ const CalculationForm = ({data}) => {
           {data.map((el) => (
             <TableRow
               key={el.name}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+              sx={{ '&:last-child td, &:last-child th': { border: 0} }}
             >
               <TableCell component="th" scope="row">
                 {data.name}
@@ -44,6 +44,7 @@ const CalculationForm = ({data}) => {
         </TableBody>
       </Table>
     </TableContainer>
+    <h3 className='ovoceText2'>Kalorie celkem: </h3>
     </div>
     </div>
   );
